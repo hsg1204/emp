@@ -1,12 +1,10 @@
-import EmptyBlock from '../../components/common/EmptyBlock'
-import PageContainer from '../../components/common/PageContainer'
+import TaskListPageView from './components/TaskListPageView'
+import useTaskListPage from './hooks/useTaskListPage'
 
 function MyTasksPage() {
-  return (
-    <PageContainer title="我的任务">
-      <EmptyBlock title="我的任务列表" description="后续接入审批待办、处理入口和任务明细。" />
-    </PageContainer>
-  )
+  const data = useTaskListPage('active')
+
+  return <TaskListPageView title="我的任务" mode="active" data={data} />
 }
 
 export default MyTasksPage
