@@ -1,0 +1,44 @@
+{
+  "id": "phase1-event-management-pages",
+  "name": "phase1-event-management-pages",
+  "title": "Implement event management pages",
+  "description": "Build the phase-1 event management frontend pages, including list, edit, detail, emergency progress, disposal records, and lightweight response actions in the detail view.",
+  "status": "in_progress",
+  "dev_type": null,
+  "scope": "frontend",
+  "priority": "P1",
+  "creator": "emp",
+  "assignee": "emp",
+  "createdAt": "2026-04-03",
+  "completedAt": null,
+  "branch": "feature/phase1-event-management-pages",
+  "base_branch": "master",
+  "worktree_path": "/home/hsg/opencode/trellis-worktrees/feature/phase1-event-management-pages",
+  "current_phase": 0,
+  "next_action": [
+    {
+      "phase": 1,
+      "action": "implement"
+    },
+    {
+      "phase": 2,
+      "action": "check"
+    },
+    {
+      "phase": 3,
+      "action": "finish"
+    },
+    {
+      "phase": 4,
+      "action": "create-pr"
+    }
+  ],
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [],
+  "children": [],
+  "parent": "04-02-emergency-management-platform",
+  "relatedFiles": [],
+  "notes": "",
+  "meta": {}
+}

@@ -1,0 +1,44 @@
+{
+  "id": "phase1-review-issue-pages",
+  "name": "phase1-review-issue-pages",
+  "title": "Implement review issue pages",
+  "description": "Build the phase-1 review improvement frontend pages, including issue list, create/edit, detail, source linkage, and follow-up record presentation.",
+  "status": "in_progress",
+  "dev_type": null,
+  "scope": "frontend",
+  "priority": "P1",
+  "creator": "emp",
+  "assignee": "emp",
+  "createdAt": "2026-04-03",
+  "completedAt": null,
+  "branch": "feature/phase1-review-issue-pages",
+  "base_branch": "master",
+  "worktree_path": "/home/hsg/opencode/trellis-worktrees/feature/phase1-review-issue-pages",
+  "current_phase": 0,
+  "next_action": [
+    {
+      "phase": 1,
+      "action": "implement"
+    },
+    {
+      "phase": 2,
+      "action": "check"
+    },
+    {
+      "phase": 3,
+      "action": "finish"
+    },
+    {
+      "phase": 4,
+      "action": "create-pr"
+    }
+  ],
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [],
+  "children": [],
+  "parent": "04-02-emergency-management-platform",
+  "relatedFiles": [],
+  "notes": "",
+  "meta": {}
+}

@@ -1,0 +1,35 @@
+{
+  "id": "00-bootstrap-guidelines",
+  "name": "Bootstrap Guidelines",
+  "description": "Fill in project development guidelines for AI agents",
+  "status": "in_progress",
+  "dev_type": "docs",
+  "priority": "P1",
+  "creator": "emp",
+  "assignee": "emp",
+  "createdAt": "2026-04-01",
+  "completedAt": null,
+  "commit": null,
+  "subtasks": [
+    {
+      "name": "Fill backend guidelines",
+      "status": "completed"
+    },
+    {
+      "name": "Fill frontend guidelines",
+      "status": "completed"
+    },
+    {
+      "name": "Add code examples",
+      "status": "pending"
+    }
+  ],
+  "children": [],
+  "parent": null,
+  "relatedFiles": [
+    ".trellis/spec/backend/",
+    ".trellis/spec/frontend/"
+  ],
+  "notes": "Phase A adopted on 2026-04-02: the repository currently lacks verifiable frontend/backend implementation files, so this task is treated as a target-stack bootstrap draft. Backend/frontend guideline drafts are filled, anti-patterns are documented, and real code examples with file-path references remain deferred until application code exists.",
+  "meta": {}
+}
