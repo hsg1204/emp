@@ -19,9 +19,49 @@ const titleMap: Record<string, string> = {
   '/system/logs': '操作日志',
 }
 
+function getBreadcrumbTitle(pathname: string) {
+  if (titleMap[pathname]) {
+    return titleMap[pathname]
+  }
+
+  if (pathname === '/system/reporting-strategies/new') {
+    return '新建上报策略'
+  }
+
+  if (pathname.startsWith('/system/reporting-strategies/') && pathname.endsWith('/edit')) {
+    return '上报策略编辑'
+  }
+
+  if (pathname === '/system/push-strategies/new') {
+    return '新建推送策略'
+  }
+
+  if (pathname.startsWith('/system/push-strategies/') && pathname.endsWith('/edit')) {
+    return '推送策略编辑'
+  }
+
+  if (pathname === '/system/fixed-groups/new') {
+    return '新建固定群'
+  }
+
+  if (pathname.startsWith('/system/fixed-groups/') && pathname.endsWith('/edit')) {
+    return '固定群编辑'
+  }
+
+  if (pathname === '/system/announcements/new') {
+    return '新建公告'
+  }
+
+  if (pathname.startsWith('/system/announcements/') && pathname.endsWith('/edit')) {
+    return '公告编辑'
+  }
+
+  return '页面'
+}
+
 function AppBreadcrumb() {
   const location = useLocation()
-  const title = titleMap[location.pathname] ?? '页面'
+  const title = getBreadcrumbTitle(location.pathname)
 
   return <Breadcrumb items={[{ title: '应急管理平台' }, { title }]} />
 }
