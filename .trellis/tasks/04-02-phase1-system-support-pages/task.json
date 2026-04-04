@@ -3,17 +3,17 @@
   "name": "phase1-system-support-pages",
   "title": "Implement system support pages",
   "description": "Build the minimum system management support pages for phase 1: organization, reporting strategy, push strategy, fixed groups, announcements, and operation logs, using lightweight list and edit patterns.",
-  "status": "planning",
+  "status": "completed",
   "dev_type": null,
-  "scope": null,
+  "scope": "frontend",
   "priority": "P2",
   "creator": "emp",
   "assignee": "emp",
   "createdAt": "2026-04-02",
-  "completedAt": null,
-  "branch": null,
+  "completedAt": "2026-04-04",
+  "branch": "feature/phase1-system-support-pages-v2",
   "base_branch": "main",
-  "worktree_path": null,
+  "worktree_path": "/home/hsg/opencode/trellis-worktrees/rebuild-phase1-system-support-pages",
   "current_phase": 0,
   "next_action": [
     {
@@ -33,8 +33,8 @@
       "action": "create-pr"
     }
   ],
-  "commit": null,
-  "pr_url": null,
+  "commit": "5e9ac6d8a60583b1e95c7dcda12d5d122036dd8d",
+  "pr_url": "https://github.com/hsg1204/emp/pull/9",
   "subtasks": [],
   "children": [],
   "parent": "04-02-emergency-management-platform",
