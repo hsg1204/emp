@@ -1,0 +1,7 @@
+{"file": ".trellis/workflow.md", "reason": "Project workflow and conventions"}
+{"file": ".trellis/spec/frontend/index.md", "reason": "Frontend development guide"}
+{"file": "/home/hsg/opencode/emp/.trellis/spec/frontend/directory-structure.md", "reason": "Follow frontend directory structure"}
+{"file": "/home/hsg/opencode/emp/.trellis/spec/frontend/component-guidelines.md", "reason": "Follow component composition and Ant Design usage"}
+{"file": "/home/hsg/opencode/emp/.trellis/spec/frontend/hook-guidelines.md", "reason": "Keep request logic and side effects in proper hooks"}
+{"file": "/home/hsg/opencode/emp/.trellis/spec/frontend/state-management.md", "reason": "Use React Query and local state correctly"}
+{"file": "/home/hsg/opencode/emp/.trellis/spec/frontend/type-safety.md", "reason": "Keep types explicit"}
